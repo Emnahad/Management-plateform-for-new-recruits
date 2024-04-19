@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <app-header></app-header>
+
+    <div class="bande">
+        <img class="info-setting3" src="./assets/images/div .png" alt="Icône">
+        <h3>Search for a project</h3>
+        <div class="float">
+            <input type="text" [(ngModel)]="searchTerm" (input)="onInputChange()"placeholder="Enter project title">
+            <button type="button" class="Rechercher">Search</button>
+        </div>
+    </div>
+
+    <div class="rectangle">
+
+        <h3>Web Development</h3>
+
+    </div>
+
+    <div class="team">
+
+        <div class="row">
+
+            <div class="col-md-4" *ngFor="let employee of  filteredEmployees;let i=index">
+
+                <div class="card" style="width: 18rem;">
+                    <img [src]="employee.image" alt="{{ employee.image}}" width="60" height="80">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">{{ employee.name }}</h5>
+
+                        <h5 class="occupation">{{ employee.occupation }}</h5>
+
+                        <button type="button" class="bouton" (click)="openPopup(employee)">bio</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div *ngIf="show" data-aos="zoom-in-down" class="over-lay">
+
+        <div class="popup">
+
+
+            <h2 class="center2" (click)="close()">{{selectedEmployee.name}} <div class="close">&times;</div>
+            </h2>
+
+            <div class="team2">
+
+                <img class="image" [src]="selectedEmployee.image" alt="{{ selectedEmployee.image}}">
+
+
+                <div class="row">
+                    <h6 class="center1">Personal Details</h6>
+                    <div class="col-md-5">
+
+
+
+                        <hr style="width: 350px; margin-right:300px ;  color:#88B702;margin-top:30px; ">
+
+
+
+
+                        <div class="flex">
+
+                            <p class="espace2">Birtday</p>
+
+                            <p class="espace4">{{selectedEmployee.dateOfBirth}}</p>
+
+                        </div>
+
+                        <hr style="width: 350px; margin-right:300px ;  color:#88B702;margin-top:30px; ">
+
+                        <div class="flex">
+
+                            <p class="espace2">Email</p>
+
+                            <p class="espace4">{{selectedEmployee.email}}</p>
+
+                        </div>
+
+                        <hr style="width: 350px; margin-right:300px ;  color:#88B702;margin-top:30px; ">
+
+                        <div class="flex">
+
+                            <p class="espace2">Phone</p>
+
+                            <p class="espace4">{{selectedEmployee.phone}}</p>
+
+                        </div>
+
+
+                        <hr style="width: 350px; margin-right:300px ;  color:#88B702;margin-top:30px; ">
+
+                    </div>
+                    <h6 class="center3">Job Details</h6>
+                    <div class="col-md-5">
+
+
+
+                    <hr style="width: 350px; margin-right:300px ;  color:#88B702;margin-top:30px; ">
+
+
+                        <div class="flex">
+
+                            <p class="espace3" style="margin-top: 10px;">Occupation</p>
+
+                            <p class="espace" style="margin-top: 10px;">{{selectedEmployee.occupation}}</p>
+
+                        </div>
+
+                        <hr style="width: 350px; margin-right:300px ;  color:#88B702;margin-top:30px; ">
+
+                        <div class="flex">
+
+                            <p class="espace3">Skills</p>
+
+                            <p class="espace">{{selectedEmployee.education}}</p>
+
+                        </div>
+
+                        <hr style="width: 350px; margin-right:300px ;  color:#88B702;margin-top:30px; ">
+
+                        <div class="flex">
+
+                            <p class="espace3">Experience</p>
+
+                            <p class="espace">{{selectedEmployee.experience}}</p>
+
+                        </div>
+
+                        <hr style="width: 350px; margin-right:300px ;  color:#88B702;margin-top:30px; ">
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="rectangle3">
+
+
+                <div class="social-media">
+                    <div class="icon">
+                        <a href="" target="_blank" class="contact-icon">
+                            <i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="#" target="_blank" class="contact-icon">
+                            <i class="fab fa-facebook"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="#" target="_blank" class="contact-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <app-footer></app-footer>
+
+</body>
+
+</html>

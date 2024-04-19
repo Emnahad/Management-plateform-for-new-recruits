@@ -1,0 +1,82 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img [src]="imageSrc" alt="Description de l'image">
+
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="#Home"> Home</a>
+                <a class="nav-link" href="#about-section">About us</a>
+                <a class="nav-link" routerLink="/team">Our team</a>
+                <a class="nav-link" routerLink="/project">Our projects</a>
+                <a class="nav-link" href="#rules-setion">Our rules</a>
+                <a class="nav-link" routerLink="/contact" routerLinkActive="active" ariaCurrentWhenActive="page">
+                    Contact us
+                </a>
+
+            </div>
+            <!-- Rest of the navbar content -->
+            <ng-container *ngIf="Isloggedin; else signInSignUpButtons">
+                <div class="user-profile" (click)="show()">
+
+                    <div>
+                        <ng-container *ngIf="user.im; else defaultImage">
+                            <img (click)="show()" [src]="user.im">
+                        </ng-container>
+                        <ng-template #defaultImage>
+                            <img (click)="show()" src="assets/images/User-Profile1.png">
+                        </ng-template>
+                    </div>
+                    <div class="pill">
+                        <h6>Hello,{{user.username}}</h6>
+                    </div>
+
+                </div>
+            </ng-container>
+            <ng-template #signInSignUpButtons>
+                <!-- Sign In and Sign Up buttons -->
+                <button routerLink="/signup" class="button">Sign up</button>
+                <button routerLink="/signin" class="button">Sign in</button>
+            </ng-template>
+            <!-- Rest of the navbar content -->
+
+
+        </div>
+    </div>
+</nav>
+<div class="over-lay" *ngIf="AfficheCard">
+
+
+    <div class="card2">
+        <button type="button" class="btn-close" (click)="close()"></button>
+        <div class="sub-menu-wrap">
+            <div class="sub-menu">
+                <div class="user-info">
+
+                    <h6>{{ user.fullName }}</h6>
+                    <p>{{ user.email }}</p>
+                </div>
+                <hr>
+                <a routerLink="/edit" class="sub-menu-link">
+                    <img src="https://img.freepik.com/icones-gratuites/utilisateur_318-563642.jpg?w=360"
+                        style='font-size:24px'>
+                    <p>Edit Profile</p>
+
+
+                </a>
+
+
+                <a (click)="logout()" class="sub-menu-link">
+                    <img
+                        src="https://static.vecteezy.com/system/resources/previews/000/575/503/original/vector-logout-sign-icon.jpg">
+                    <p>LogOut</p>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>

@@ -1,0 +1,68 @@
+<body>
+    <div class="container">
+        <div class="im">
+            <a routerLink="/home"><img src="./assets/images/h.png"></a>
+        </div>
+
+        <h1>Sign In</h1>
+        <div class="cont">
+            <form [formGroup]="signInForm"  method="POST">
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="full-name">User Name</label>
+                    <div class="icon-input" [class.error]="signInForm.controls['userName'].dirty && signInForm.hasError('required','userName')">
+                        <span class="icon"><i class="fas fa-user-circle"></i></span>
+                        <input formControlName="userName" type="text" id="user-name" name="user-name" required
+                            placeholder="User Name">
+                    </div>
+                    <small *ngIf="isFieldInvalid('userName')" class="text-danger">*Username is required*</small>
+                </div>
+            </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="Password">Password</label>
+                        <div class="icon-input"  [class.error]="signInForm.controls['password'].dirty && signInForm.hasError('required','password')">
+                            <span class="icon"><i class="fas fa-lock"></i></span>
+                            <input formControlName="password" type="{{ type }}" id="Password" name="Password" required
+                                placeholder="Password">
+                            <button (click)="hideShowPass()" type="button" class="show-password-button">
+                                <span class="fa {{ eyeIcon }}"></span>
+                            </button>
+
+                        </div>
+                        <small *ngIf="isFieldInvalid('password')" class="text-danger">*Password is required*</small>
+                    </div>
+                </div>
+
+
+
+                <button (click)="onLogin()" type="submit" value="Send Message">Sign In</button>
+
+                <div class="text"><span class="pk">Don't have an account? </span><a id="forgot" class="login-link" routerLink="/signup">Sign
+                        up</a>
+                </div>
+            </form>
+        </div>
+       
+        <div class="connect">
+            <div class="tex">
+            <span> <hr>  Or connect with <hr></span>
+            </div>
+            <div class="conv">
+                <a href="https://www.facebook.com" target="_blank" class="dr">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.google.com" target="_blank" class="dr">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="https://www.github.com" target="_blank" class="dr">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+        </div>
+
+    
+</body>

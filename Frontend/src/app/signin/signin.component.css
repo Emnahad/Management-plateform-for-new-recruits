@@ -1,0 +1,229 @@
+body {
+    background: linear-gradient(217deg, #343434, rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, #444E2B, #343434 70.71%),
+        linear-gradient(336deg, #444E2B, rgba(0, 0, 255, 0) 70.71%);
+
+
+    height: 100vh;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.im {
+    padding-top: 2px;
+    padding-left: 290px;
+}
+
+.im img {
+    width: 65px;
+    height: 60px;
+
+}
+a {
+    margin-right: 111px;
+}
+
+img {
+    width: 50px;
+
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Adding a semi-transparent background to the container */
+    padding-top: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    /* Adding a subtle shadow for the box */
+    width: 680px;
+    /* Adjust the width as needed */
+    margin: auto;
+    height: 675px;
+    /* Center the box horizontally */
+}
+
+.container h1 {
+    text-align: center;
+    align-items: center;
+    letter-spacing: -1px;
+    color: #88B702;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 106px;
+    padding-top: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #88B702;
+    background-color: #494948;
+    border-radius: 20px;
+    color: #BFD73D;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.form-row .form-group {
+    width: 48%;
+    padding-left: 42px;
+    margin-top: 2px;
+    padding-right: 42px;
+
+
+
+}
+
+.form-group {
+    padding-left: 12px;
+}
+
+.form-row .form-group:last-child {
+    width: 100%;
+
+}
+
+.form-row .form-group label {
+    margin-bottom: 10px;
+
+}
+
+button {
+    width: 120px;
+    height: 60px;
+    border-radius: 12px;
+    background-color: #88B702;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 271px;
+}
+
+
+
+
+.icon-input {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    z-index: 1;
+    /* Ensure the icon appears above the input */
+}
+
+.icon i {
+    font-size: 20px;
+    /* Adjust the icon size as needed */
+    color: #888;
+    /* Adjust the icon color */
+}
+
+.icon-input input {
+    padding-left: 30px;
+    /* Adjust the padding to make space for the icon */
+}
+
+
+.show-password-button {
+    position: absolute;
+    top: 35%;
+    right: -31px;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+}
+
+.show-password-button .fa {
+    font-size: 18px;
+    /* Adjust the icon size as needed */
+    color: #888;
+    /* Adjust the icon color */
+}
+
+.login-link {
+    text-decoration: none;
+    color: #88B702;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.login-link:hover {
+    color: #107633;
+}
+
+.text {
+    text-align: center;
+    margin-left: 101px;
+    margin-top: 30px;
+}
+.text span{
+    text-align: center;
+        font-weight: bold;
+        color: #ffffff;
+        margin-top: 15px;
+}
+.pt-4 {
+    padding-top: 1rem;
+}
+.tex{
+text-align: center;
+}
+ .tex span {
+     text-align: center;
+     font-weight: bold;
+     color: #ffffff;
+     
+ }
+
+
+ .conv {
+     text-align: center;
+     margin-top: 20px;
+ }
+
+ .conv a {
+     color: #88B702;
+     margin: 0 10px;
+ }
+
+ .dr {
+     text-decoration: none;
+     font-size: 24px;
+ }
+ .error {
+     border: 1px solid red;
+    border-radius: 20px;
+ }

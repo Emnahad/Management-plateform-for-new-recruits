@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\0233900d-482a-4c29-b2fb-d0b153c4e3c8.pdf",
+      "PackagePath": "staticwebassets\\Documents\\0233900d-482a-4c29-b2fb-d0b153c4e3c8.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\05bcb140-91fd-4b5b-a42e-de5727fdb32b.pdf",
+      "PackagePath": "staticwebassets\\Documents\\05bcb140-91fd-4b5b-a42e-de5727fdb32b.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\255b2787-5e15-4009-a009-607be5903999.pdf",
+      "PackagePath": "staticwebassets\\Documents\\255b2787-5e15-4009-a009-607be5903999.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\2d955b74-23e4-4b8a-aba8-0ff8700b99c0.pdf",
+      "PackagePath": "staticwebassets\\Documents\\2d955b74-23e4-4b8a-aba8-0ff8700b99c0.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\3f3348fe-b235-4539-bd16-1f65639cc1cf.pdf",
+      "PackagePath": "staticwebassets\\Documents\\3f3348fe-b235-4539-bd16-1f65639cc1cf.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\46e84c53-232d-4aeb-9af9-03e75c288dfe.pdf",
+      "PackagePath": "staticwebassets\\Documents\\46e84c53-232d-4aeb-9af9-03e75c288dfe.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\520735be-29a2-4944-be07-bb29c70c91a0.pdf",
+      "PackagePath": "staticwebassets\\Documents\\520735be-29a2-4944-be07-bb29c70c91a0.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\5b126b47-30c6-4724-ab44-5718aa76690f.pdf",
+      "PackagePath": "staticwebassets\\Documents\\5b126b47-30c6-4724-ab44-5718aa76690f.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\66196312-cd02-47b5-9556-21cb8f55f7dd.pdf",
+      "PackagePath": "staticwebassets\\Documents\\66196312-cd02-47b5-9556-21cb8f55f7dd.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\83a79b3c-3ba5-493b-82c2-36c3e27ef369.pdf",
+      "PackagePath": "staticwebassets\\Documents\\83a79b3c-3ba5-493b-82c2-36c3e27ef369.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\ba67ff60-c4b6-45e1-b8f1-077e9edd8b41.pdf",
+      "PackagePath": "staticwebassets\\Documents\\ba67ff60-c4b6-45e1-b8f1-077e9edd8b41.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\cc8de02d-e049-473c-8e4c-f0698cabcae6.pdf",
+      "PackagePath": "staticwebassets\\Documents\\cc8de02d-e049-473c-8e4c-f0698cabcae6.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\cd3a41b1-8392-491a-9c98-353b31002958.pdf",
+      "PackagePath": "staticwebassets\\Documents\\cd3a41b1-8392-491a-9c98-353b31002958.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\d6d6dc13-8e74-496a-b902-99229d2ff996.pdf",
+      "PackagePath": "staticwebassets\\Documents\\d6d6dc13-8e74-496a-b902-99229d2ff996.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\e79f01fd-dd86-4681-b62a-6e8de8a5d234.pdf",
+      "PackagePath": "staticwebassets\\Documents\\e79f01fd-dd86-4681-b62a-6e8de8a5d234.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Emna Haddar\\Desktop\\Proj_Stage\\Projects\\ProjectsAPI\\wwwroot\\Documents\\f2e02ea8-29f4-49df-83a8-9316ebaa3de5.pdf",
+      "PackagePath": "staticwebassets\\Documents\\f2e02ea8-29f4-49df-83a8-9316ebaa3de5.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ProjectsAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ProjectsAPI.props",
+      "PackagePath": "build\\ProjectsAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ProjectsAPI.props",
+      "PackagePath": "buildMultiTargeting\\ProjectsAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ProjectsAPI.props",
+      "PackagePath": "buildTransitive\\ProjectsAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

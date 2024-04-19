@@ -1,0 +1,59 @@
+<div class="co">
+
+    <div *ngIf="isLoading; else projectsContent">
+        <div class="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i>
+        </div>
+    </div>
+
+    <ng-template #projectsContent>
+        <app-header></app-header>
+        <div class="co">
+            <h1>Our Projects</h1>
+            <div class="bande">
+                <img class="info-setting3" src="./assets/images/div .png" alt="Icône">
+                <h3>Search for a project</h3>
+                <div class="float">
+                    <input type="text" [(ngModel)]="searchTerm"  placeholder="Enter project title"
+                        (keydown.enter)="searchProjects()">
+                    <button type="button" class="Rechercher" (click)="searchProjects()">Search</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div *ngIf="getVisibleProjects().length === 0">No projects available.</div>
+
+                    <div *ngFor="let project of getVisibleProjects()" class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="{{ project.image }}" alt="Project Image">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ project.title }}</h5>
+                                <p class="card-text">{{ project.description }}<span>...</span></p>
+                                <div class="context">Start Date : <p class="card-text">{{ project.startDate | date:
+                                        'yyyy-MM-dd' }}</p>
+                                </div>
+                                <br>
+                                <div class="context">End Date : <p class="card-text">{{ project.endDate | date:
+                                        'yyyy-MM-dd' }}</p>
+                                </div>
+
+                                <hr>
+                                <button class="il" (click)="openModal(project)">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center">
+                <div class="pagination">
+                    <a (click)="onPageChange(currentPage - 1)">&laquo;</a>
+                    <a *ngFor="let page of getPaginationArray()" [class.active]="currentPage === page"
+                        (click)="onPageChange(page)">{{ page }}</a>
+                    <a (click)="onPageChange(currentPage + 1)">&raquo;</a>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</div>
+<app-footer></app-footer>

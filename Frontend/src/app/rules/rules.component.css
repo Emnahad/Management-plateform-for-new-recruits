@@ -1,0 +1,107 @@
+ .ko {
+     background: linear-gradient(217deg, #343434, rgba(255, 0, 0, 0) 70.71%),
+         linear-gradient(127deg, #444E2B, #343434 70.71%),
+         linear-gradient(336deg, #444E2B, rgba(0, 0, 255, 0) 70.71%);
+
+
+     height: 100vh;
+     padding-left: 0;
+ }
+
+ h1 {
+     text-align: center;
+     align-items: center;
+     letter-spacing: -1px;
+     color: #88B702;
+     font-weight: 700;
+     font-size: 80px;
+     line-height: 106px;
+     padding-top: 80px;
+     font-family: 'DM Sans';
+     font-style: normal;
+ }
+
+ .card-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin-left: 70px;
+     margin-right: 70px;
+     margin-top: 50px;
+ }
+
+ .card {
+     width: 590px;
+     height: 200px;
+     /* Adjust the width as per your requirements */
+     margin-bottom: 20px;
+     /* Adjust the margin as per your requirements */
+     background-color: #484848;
+     border-radius: 30px;
+     border: 2px solid #88B702;
+     padding-top: -15px;
+     display: flex;
+     flex-direction: row;
+
+
+ }
+
+ .card .he {
+     color: white;
+     padding-left: 15px;
+     padding-top: 30px;
+
+
+ }
+
+ .im img {
+     margin-top: 50px;
+     width: 65px;
+     margin-left: 15px;
+ }
+
+ .contact-info .let {
+     margin-top: 40px;
+ }
+
+ .contact-info .let img {
+     width: 50px;
+     height: 50px;
+ }
+
+ .contact-info .let p {
+     font-size: 18px;
+     text-decoration: underline;
+ }
+
+ .contact-info .le {
+     margin-top: 25px;
+     margin-right: 20px;
+ }
+
+ .contact-info .le img {
+     width: 50px;
+     height: 50px;
+
+ }
+
+ .contact-info .le p {
+     font-size: 18px;
+     text-decoration: underline;
+
+ }
+
+ .contact-info .la {
+     margin-top: 25px;
+     margin-right: -77px;
+ }
+
+ .contact-info .la img {
+     width: 60px;
+     height: 60px;
+ }
+
+ .contact-info .la p {
+     font-size: 18px;
+     text-decoration: underline;
+ }

@@ -1,0 +1,111 @@
+<app-header></app-header>
+
+<body>
+    <div class="container">
+        <div class="bande">
+            <h1>Edit Profile</h1>
+
+        </div>
+
+
+        <div class="cont">
+            <form [formGroup]="EditForm" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <div class="icon-input">
+                            <span class="icon"><i class="fas fa-user"></i></span>
+                            <input formControlName="fullName" type="text" id="full-name" name="full-name" required
+                                placeholder="Full Name" >
+                        </div>
+
+
+                    </div>
+                    <div class="form-group">
+                        <label for="full-name">User Name</label>
+                        <div class="icon-input">
+                            <span class="icon"><i class="fas fa-user-circle"></i></span>
+                            <input formControlName="userName" type="text" id="user-name" name="user-name" required
+                                placeholder="User Name" >
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="Password">Password</label>
+                        <div class="icon-input">
+                            <span class="icon"><i class="fas fa-lock"></i></span>
+                            <input formControlName="password" type="{{ type }}" id="Password" name="Password" required
+                                placeholder="Password">
+
+
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="Password">Confirm Password</label>
+                        <div class="icon-input">
+                            <span class="icon"><i class="fas fa-lock"></i></span>
+                            <input type="{{ type }}" id="confirm Password" name="Password" required
+                                placeholder="Confirm Password">
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <div class="icon-input">
+                            <span class="icon"><i class="fas fa-envelope"></i></span>
+                            <input formControlName="email" type="email" id="Email" name="Email" required
+                                placeholder="Email">
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="Password">Job Position</label>
+                        <div class="icon-input">
+                            <span class="icon"><i class="fas fa-briefcase"></i></span>
+                            <input formControlName="jobPosition" type="text" id="Job-Position" name="Job-Position"
+                                required placeholder="Job Position">
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="Password">Profile Image</label>
+                        <div class="icon-input">
+                            <div >
+                                <input class="cl" type="file" (change)="handleImageInput($event)">
+                                <img *ngIf="selectedImage" [src]="selectedImage" alt="Selected Image">
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <button class="ftn" (click)="updateUserProfile()">Save changes</button>
+                    </div>
+                </div>
+
+
+
+            </form>
+        </div>
+
+
+    </div>
+</body>

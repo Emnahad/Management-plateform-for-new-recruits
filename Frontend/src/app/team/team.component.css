@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(217deg, #343434, rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, #444E2B, #343434 70.71%),
+        linear-gradient(336deg, #444E2B, rgba(0, 0, 255, 0) 70.71%);
+    position: relative;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    width: calc(33.33% - 20px);
+    margin-bottom: 50px;
+}
+.card-body h5 {
+    color: white;
+}
+
+.card-body .card-text {
+    color: white;
+}
+.card {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    background-color: #41453a;
+    border: solid 3px #88B702;
+    margin-bottom: 30px;
+}
+.card .il {
+    width: 116px;
+    height: 43px;
+    border-radius: 12px;
+    background-color: #88B702;
+    color: white;
+    text-align: center;
+    margin-top: -1px;
+    margin-left: -2px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+        padding: 32px;
+}
+.card-body hr {
+    width: 100%;
+    color: #88B702;
+
+}
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.card-body hr {
+    width: 100%;
+    color: #88B702;
+}
+.card-img-top {
+    
+    height: 300px;
+}
+h1 {
+    text-align: center;
+    align-items: center;
+    letter-spacing: -1px;
+    color: #88B702;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 106px;
+    padding-top: 80px;
+    font-family: 'DM Sans';
+    font-style: normal;
+}
+.il {
+    width: 116px;
+        height: 43px;
+        border-radius: 12px;
+        background-color: #88B702;
+        color: white;
+        text-align: center;
+        margin-top: -1px;
+        margin-left: -2px;
+}

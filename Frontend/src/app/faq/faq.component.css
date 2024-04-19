@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.faq {
+    font-family: 'DM Sans';
+    font-style: normal;
+    min-height: 100vh;
+    background: linear-gradient(217deg, #343434, rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, #444E2B, #343434 70.71%),
+        linear-gradient(336deg, #444E2B, rgba(0, 0, 255, 0) 70.71%);
+    margin-top: 234px;
+}
+
+.title {
+    text-align: center;
+    align-items: center;
+    letter-spacing: -1px;
+    color: #88B702;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 106px;
+    padding-top: 80px;
+    font-family: 'DM Sans';
+    font-style: normal;
+}
+
+
+.questions-container {
+    max-width: 900px;
+    margin-top: 67px;
+    margin-left: 355px;
+}
+
+.question {
+    border-bottom: 1px solid #88B702;
+}
+
+.question button {
+    width: 100%;
+    background-color: #494948;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.question p {
+    font-size: 22px;
+    max-height: 0;
+    opacity: 0;
+    line-height: 1.5;
+    overflow: hidden;
+    transition: all 0.6s ease;
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: #88B702;
+}
+
+.d-arrow {
+    transition: transform 0.5s ease-in;
+    color: #fff;
+}
+
+/*add this class when click*/
+.question p.show {
+    max-height: 200px;
+    opacity: 1;
+    padding: 0px 15px 30px 15px;
+    background-color: #494948;
+}
+
+.question button .d-arrow.rotate {
+    transform: rotate(180deg);
+}

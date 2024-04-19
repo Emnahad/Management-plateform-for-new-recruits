@@ -1,0 +1,50 @@
+.re {
+    background: linear-gradient(217deg, #343434, rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, #444E2B, #343434 70.71%),
+        linear-gradient(336deg, #444E2B, rgba(0, 0, 255, 0) 70.71%);
+    height: 100vh;
+    padding-left: 0;
+}
+
+.contain h1 {
+    text-align: center;
+    align-items: center;
+    letter-spacing: -1px;
+    color: #88B702;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 106px;
+    padding-top: 80px;
+    font-family: 'DM Sans';
+    font-style: normal;
+}
+
+.mes {
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 0px;
+    
+}
+
+.me {
+    grid-column: 1;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 550px;
+    height: 200px;
+}
+
+.im {
+    grid-column: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.im img {
+   width: 530px;
+    height: auto;
+    margin-top: -220px;
+    
+}

@@ -1,0 +1,177 @@
+body {
+    background: linear-gradient(217deg, #343434, rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, #444E2B, #343434 70.71%),
+        linear-gradient(336deg, #444E2B, rgba(0, 0, 255, 0) 70.71%);
+
+
+    min-height: 100vh;
+    margin: 0;
+    padding-right: 0;
+    margin-right: 0;
+
+}
+
+
+
+.cont {
+    margin-right: 10px;
+    padding-right: 700px;
+
+}
+
+.contact-info .let {
+    margin-top: 40px;
+}
+
+.contact-info .let img {
+    width: 50px;
+    height: 50px;
+}
+
+.contact-info .let p {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.contact-info .le {
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.contact-info .le img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.contact-info .le p {
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+
+.contact-info .la {
+    margin-top: 25px;
+    margin-right: -77px;
+}
+
+.contact-info .la img {
+    width: 60px;
+    height: 60px;
+}
+
+.contact-info .la p {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+a {
+    margin-right: 111px;
+}
+
+img {
+    width: 50px;
+
+}
+
+.container h1 {
+    text-align: center;
+    align-items: center;
+    letter-spacing: -1px;
+    color: #88B702;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 106px;
+    padding-top: 80px;
+    font-family: 'DM Sans';
+    font-style: normal;
+
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 620px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #88B702;
+    background-color: #494948;
+    border-radius: 20px;
+    color: #BFD73D;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form-row .form-group {
+    width: 48%;
+    padding-left: 12px;
+
+
+}
+
+.form-group {
+    padding-left: 12px;
+}
+
+.form-row .form-group:last-child {
+    width: 100%;
+
+}
+
+.form-row .form-group label {
+    margin-bottom: 10px;
+
+}
+
+button {
+    width: 120px;
+    height: 60px;
+    border-radius: 12px;
+    background-color: #88B702;
+    color: white;
+    text-align: center;
+    margin-top: -14px;
+    margin-left: 15px;
+}
+
+.contact-info {
+    margin-top: -531px;
+    text-align: right;
+}
+
+.contact-info h2 {
+
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: #ffffff;
+}
+
+.contact-info p {
+    display: inline-block;
+    margin-left: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: #ffffff;
+}
+
+.contact-info img {
+    height: 20px;
+    vertical-align: middle;
+}

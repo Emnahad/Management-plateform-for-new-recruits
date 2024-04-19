@@ -1,0 +1,92 @@
+<body>
+    <div class="container">
+        <div class="im">
+            <a routerLink="/home"><img src="./assets/images/h.png"></a>
+        </div>
+
+        <h1>Sign Up</h1>
+        <div class="cont">
+            <form [formGroup]="signUpForm" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <div class="icon-input"
+                            [class.error]="signUpForm.controls['fullName'].dirty && signUpForm.hasError('required','fullName')">
+                            <span class="icon"><i class="fas fa-user"></i></span>
+                            <input formControlName="fullName" type="text" id="full-name" name="full-name" required
+                                placeholder="Full Name">
+                        </div>
+                        <small *ngIf="isFieldInvalid('fullName')" class="text-danger">*Full Name is required*</small>
+
+                    </div>
+
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="full-name">User Name</label>
+                        <div class="icon-input"
+                            [class.error]="signUpForm.controls['userName'].dirty && signUpForm.hasError('required','userName')">
+                            <span class="icon"><i class="fas fa-user-circle"></i></span>
+                            <input formControlName="userName" type="text" id="user-name" name="user-name" required
+                                placeholder="User Name">
+                        </div>
+                        <small *ngIf="isFieldInvalid('userName')" class="text-danger">*Username is required*</small>
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="Password">Password</label>
+                        <div class="icon-input"
+                            [class.error]="signUpForm.controls['password'].dirty && signUpForm.hasError('required','password')">
+                            <span class="icon"><i class="fas fa-lock"></i></span>
+                            <input formControlName="password" type="{{ type }}" id="Password" name="Password" required
+                                placeholder="Password">
+                            <button (click)="hideShowPass()" type="button" class="show-password-button">
+                                <span class="fa {{ eyeIcon }}"></span>
+                            </button>
+
+                        </div>
+                        <small *ngIf="isFieldInvalid('password')" class="text-danger">*Password is required*</small>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <div class="icon-input"
+                            [class.error]="signUpForm.controls['email'].dirty && signUpForm.hasError('required','email')">
+                            <span class="icon"><i class="fas fa-envelope"></i></span>
+                            <input formControlName="email" type="email" id="Email" name="Email" required
+                                placeholder="Email">
+                        </div>
+                        <small *ngIf="isFieldInvalid('email')" class="text-danger">*Username is required*</small>
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="Password">Job Position</label>
+                        <div class="icon-input"
+                            [class.error]="signUpForm.controls['jobPosition'].dirty && signUpForm.hasError('required','jobPosition')">
+                            <span class="icon"><i class="fas fa-briefcase"></i></span>
+                            <input formControlName="jobPosition" type="text" id="Job-Position" name="Job-Position"
+                                required placeholder="Job Position">
+                        </div>
+                        <small *ngIf="isFieldInvalid('jobposition')" class="text-danger">*Username is required*</small>
+                    </div>
+
+                </div>
+                <button (click)="onSignUp()" type="submit" value="Send Message">Sign Up</button>
+                <div class="text">
+                    Already have an account?
+                    <a id="forgot" routerLink="/signin" class="signup-link">Login</a>
+                </div>
+
+            </form>
+        </div>
+
+
+    </div>
+</body>

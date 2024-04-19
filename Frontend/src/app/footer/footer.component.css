@@ -1,0 +1,75 @@
+/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+.social-media {
+    display: flex;
+    justify-content: end;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin-right: 129px;
+    padding: 0;
+    margin-top: 19px;
+}
+
+.social-media a:hover {
+    color: #88B702;
+}
+
+.icon {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    margin: 15px 10px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: linear-gradient(217deg, #343434, rgba(255, 0, 0, 0) 70.71%),
+            linear-gradient(127deg, #444E2B, #343434 70.71%),
+            linear-gradient(336deg, #444E2B, rgba(0, 0, 255, 0) 70.71%);
+    cursor: pointer;
+   
+
+}
+
+.icon a {
+    color: #fff;
+}
+
+footer {
+    font: 200 14px 'Oswald', sans-serif;
+    color: rgb(255, 248, 248);
+    letter-spacing: 1px;
+    text-align: center;
+   
+}
+
+.contact-container {
+    display: flex;
+    width: 100%;
+    background-color: #494948;
+}
+
+.identity img {
+    width: 13rem;
+    height: 7rem;
+    margin-left: 35px;
+}
+
+.identity {
+    display: flex;
+}
+
+.slogon {
+    margin-top: 40px;
+    width: 501px;
+    font-size: 20px;
+    margin-left: 232px;
+    font-weight: 100px;
+}
+
+.copyright {
+    color: #fff;
+    margin-top: -15px;
+    padding-top: 3px;
+    background-color: #648F0A;
+}

@@ -1,0 +1,218 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Augmenter la taille de l'image */
+.navbar-brand img {
+    width: 200px;
+    height: 150px;
+    margin-right: 15px;
+    margin-top: 75px;
+    /* Ajustez la taille souhaitée */
+}
+
+.navbar-nav {
+    margin-left: 60px;
+}
+
+/* Espacer les éléments de la navigation */
+.navbar-nav .nav-link {
+    margin-right: 70px;
+    margin-top: 70px;
+    color: white;
+    /* Ajustez l'espacement souhaité */
+}
+
+/* Changer le background de l'en-tête */
+.container-fluid {
+    background: linear-gradient(217deg, #343434, rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, #444E2B, #343434 70.71%),
+        linear-gradient(336deg, #444E2B, rgba(0, 0, 255, 0) 70.71%);
+    /* Define the background color with transparency */
+    position: fixed;
+    z-index: 9999;
+    height: 150px;
+    border: 0.1px solid whitesmoke;
+
+}
+
+
+.info img {
+    width: 40px;
+    height: 30px;
+    margin-top: 75px;
+    margin-left: 10px;
+}
+
+
+
+.button {
+    background-color: #648F0A;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 0px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 72px;
+    margin-right: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 40px;
+}
+
+/* In your CSS or SCSS file */
+.user-profile {
+    display: flex;
+    align-items: center;
+    color: #648F0A;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 15px;
+   
+}
+
+.user-profile img {
+    width: 50px;
+    height: 40px;
+    margin-top: 60px;
+    cursor: pointer;
+border: 2px solid #fff;
+    
+}
+
+.user-profile h4 {
+    margin-top: 5px;
+    margin-left: 2px;
+    color: #343434;
+}
+
+.user-profile .pill {
+    margin-top: 60px;
+    width: 200px;
+    height: 40px;
+    background: #648F0A;
+   
+border: 2px solid #fff;
+    border-radius: 40px 999em 999em 40px;
+}
+
+.sub-menu {
+    background: #648F0A;
+    padding: 20px;
+margin: 2px;
+    height: 186px;
+}
+
+.sub-menu hr {
+    height: 1px;
+    width: 100%;
+    background: black;
+    margin: -5px 0 10px;
+}
+
+.user-info h6 {
+    font-weight: 200px;
+    margin-left: -69px;
+    margin-top: 2px;
+    
+    font-weight: bold;
+}
+
+.user-info p{
+        margin-right: 49px;
+    font-weight: bold;
+}
+.user-info img {
+    width: 32px;
+    border-radius: 50%;
+    margin-top: -19px;
+}
+
+.info-setting {
+    width: 35px;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    max-height: 434px;
+    background-color: white;
+
+    top: 72px;
+    right: 57px;
+    position: fixed;
+    z-index: 9999;
+    text-align: center;
+    font-family: arial;
+    width: 244px;
+    border-radius: 4px;
+}
+
+.title {
+    color: #343434;
+    font-size: 17px;
+}
+
+.close {
+    margin-left: 300px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+h6 {
+    color: rgb(17, 14, 14);
+    margin-top: 8px;
+    margin-left: 40px;
+}
+
+.sub-menu-link {
+    text-decoration: none;
+    color: #343434;
+    display: flex;
+    justify-items: flex-start;
+    
+    cursor: pointer;
+}
+
+.sub-menu-link img {
+    width: 30px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    padding: 8px;
+}
+
+.sub-menu-link p {
+margin-left: 39px;
+    margin-top: 3px;
+    color: #343434
+}
+
+.sub-menu-link:hover p {
+    font-weight: 550;
+}
+
+.btn-close {
+    /* Your existing styles for the close button */
+    color: white;
+    float: right;
+    font-size: 10px;
+    border-radius: 25px;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+.btn-close:hover,
+.btn-close:focus {
+    /* Your existing styles for the close button hover/focus */
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

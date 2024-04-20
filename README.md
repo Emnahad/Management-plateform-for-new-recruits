@@ -1,6 +1,6 @@
 # About the project
 
- It's a management plateform for new recruits facilitating their integration in the professional environment.
+ It's a management plateform for new recruits facilitating their integration in the professional environment.
  
  ## Built with
 - **Front-End:**Angular, Bootstrap, TypeScript.
@@ -8,6 +8,7 @@
 - **DataBases:** SQL Server.
 
 ## Demo
+[![Video](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
 
 
 

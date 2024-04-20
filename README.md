@@ -9,7 +9,8 @@
 
 ## Demo
 
-[![Watch the video]([https://github.com/Emnahad/Management-plateform-for-new-recruits/blob/main/Screenshot%202023-07-13%20003843.png?raw=true])](https://vimeo.com/937024450?share=copy)
+[![Watch the video](https://github.com/Emnahad/Management-plateform-for-new-recruits/blob/main/Screenshot%202023-07-13%20003843.png?raw=true)](https://vimeo.com/937024450?share=copy)
+
 
 ## How to Use
 1. Clone this repo and run the content locally:

@@ -8,9 +8,8 @@
 - **DataBases:** SQL Server.
 
 ## Demo
-<iframe src="https://player.vimeo.com/video/937024450" width="560" height="315" frameborder="0" allowfullscreen></iframe>
 
-
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://vimeo.com/937024450?share=copy)
 
 ## How to Use
 1. Clone this repo and run the content locally:

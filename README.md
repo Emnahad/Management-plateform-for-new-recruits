@@ -3,7 +3,7 @@
  It's a management plateform for new recruits facilitating their integration in the professional environment.
  
  ## Built with
-- **Front-End:**Angular, Bootstrap, TypeScript.
+- **Front-End:** Angular, Bootstrap, TypeScript.
 - **Backend:** .Net Core.
 - **DataBases:** SQL Server.
 
